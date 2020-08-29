@@ -12,11 +12,10 @@ import java.util.Vector;
 import javax.servlet.ServletContext;
 
 
-
 public class BbsDAO {
 	//DAO에서 기본 할일
 	//1.DB연결
-	//2. 자원해제
+	//2.자원해제
 	Connection con;	
 	PreparedStatement psmt;
 	ResultSet rs;	
@@ -189,7 +188,6 @@ public class BbsDAO {
 		}
 		return bbs;
 	}
-	
 	
 	
 	
