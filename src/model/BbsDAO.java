@@ -195,7 +195,6 @@ public class BbsDAO {
 	public List<BbsDTO> selectListPage(Map<String, Object> map){
 		
 		List<BbsDTO> bbs = new Vector<BbsDTO>();
-		
 		/*
 		//오라클 쿼리문
 		String query = " "
